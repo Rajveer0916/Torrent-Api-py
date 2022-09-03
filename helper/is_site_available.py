@@ -36,7 +36,7 @@ def check_if_site_available(site):
                 "xxx",
                 "movies",
             ],
-            "limit": 50,
+            "limit": 100,
         },
         "torlock": {
             "website": Torlock,
@@ -58,7 +58,7 @@ def check_if_site_available(site):
                 "books",
                 "images",
             ],  # ebooks
-            "limit": 50,
+            "limit": 100,
         },
         "zooqle": {
             "website": Zooqle,
@@ -68,7 +68,7 @@ def check_if_site_available(site):
             "recent_available": False,
             "recent_category_available": False,
             "categories": [],
-            "limit": 30,
+            "limit": 100,
         },
         "magnetdl": {
             "website": Magnetdl,
@@ -79,7 +79,7 @@ def check_if_site_available(site):
             "recent_category_available": True,
             # e-books
             "categories": ["apps", "movies", "music", "games", "tv", "books"],
-            "limit": 40,
+            "limit": 100,
         },
         "tgx": {
             "website": TorrentGalaxy,
@@ -100,7 +100,7 @@ def check_if_site_available(site):
                 "movies",
                 "books",
             ],
-            "limit": 50,
+            "limit": 100,
         },
         "nyaasi": {
             "website": NyaaSi,
@@ -110,7 +110,7 @@ def check_if_site_available(site):
             "recent_available": True,
             "recent_category_available": False,
             "categories": [],
-            "limit": 50,
+            "limit": 100,
         },
         "piratebay": {
             "website": PirateBay,
@@ -130,7 +130,7 @@ def check_if_site_available(site):
             "recent_available": False,
             "recent_category_available": False,
             "categories": [],
-            "limit": 50,
+            "limit": 100,
         },
         "kickass": {
             "website": Kickass,
@@ -151,7 +151,7 @@ def check_if_site_available(site):
                 "movies",
                 "books",
             ],  # television applications
-            "limit": 50,
+            "limit": 100,
         },
         "libgen": {
             "website": Libgen,
@@ -161,7 +161,7 @@ def check_if_site_available(site):
             "recent_available": False,
             "recent_category_available": False,
             "categories": [],
-            "limit": 25,
+            "limit": 100,
         },
         "yts": {
             "website": Yts,
@@ -171,7 +171,7 @@ def check_if_site_available(site):
             "recent_available": True,
             "recent_category_available": False,
             "categories": [],
-            "limit": 20,
+            "limit": 100,
         },
         "limetorrent": {
             "website": Limetorrent,
@@ -190,7 +190,7 @@ def check_if_site_available(site):
                 "movies",
                 "books",
             ],  # applications and tv-shows
-            "limit": 50,
+            "limit": 100,
         },
         "torrentfunk": {
             "website": TorrentFunk,
@@ -209,7 +209,7 @@ def check_if_site_available(site):
                 "movies",
                 "books",
             ],  # television # software #adult # ebooks
-            "limit": 50,
+            "limit": 100,
         },
         "glodls": {
             "website": Glodls,
@@ -219,7 +219,7 @@ def check_if_site_available(site):
             "recent_available": True,
             "recent_category_available": False,
             "categories": [],
-            "limit": 45,
+            "limit": 100,
         },
         "torrentproject": {
             "website": TorrentProject,
@@ -229,7 +229,7 @@ def check_if_site_available(site):
             "recent_available": False,
             "recent_category_available": False,
             "categories": [],
-            "limit": 20,
+            "limit": 100,
         },
         "ybt": {
             "website": YourBittorrent,
@@ -250,7 +250,7 @@ def check_if_site_available(site):
                 "pictures",
                 "other",
             ],  # book -> ebooks
-            "limit": 20,
+            "limit": 100,
         },
     }
 
