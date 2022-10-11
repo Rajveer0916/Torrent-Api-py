@@ -250,7 +250,7 @@ def check_if_site_available(site):
                 "pictures",
                 "other",
             ],  # book -> ebooks
-            "limit": 100,
+            "limit": 10000,
         },
     }
 
