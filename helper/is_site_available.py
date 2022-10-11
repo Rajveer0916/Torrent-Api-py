@@ -36,7 +36,7 @@ def check_if_site_available(site):
                 "xxx",
                 "movies",
             ],
-            "limit": 100,
+            "limit": 10000,
         },
         "torlock": {
             "website": Torlock,
@@ -58,7 +58,7 @@ def check_if_site_available(site):
                 "books",
                 "images",
             ],  # ebooks
-            "limit": 100,
+            "limit": 10000,
         },
         "zooqle": {
             "website": Zooqle,
@@ -68,7 +68,7 @@ def check_if_site_available(site):
             "recent_available": False,
             "recent_category_available": False,
             "categories": [],
-            "limit": 100,
+            "limit": 10000,
         },
         "magnetdl": {
             "website": Magnetdl,
@@ -79,7 +79,7 @@ def check_if_site_available(site):
             "recent_category_available": True,
             # e-books
             "categories": ["apps", "movies", "music", "games", "tv", "books"],
-            "limit": 100,
+            "limit": 10000,
         },
         "tgx": {
             "website": TorrentGalaxy,
@@ -100,7 +100,7 @@ def check_if_site_available(site):
                 "movies",
                 "books",
             ],
-            "limit": 100,
+            "limit": 10000,
         },
         "nyaasi": {
             "website": NyaaSi,
@@ -110,7 +110,7 @@ def check_if_site_available(site):
             "recent_available": True,
             "recent_category_available": False,
             "categories": [],
-            "limit": 100,
+            "limit": 10000,
         },
         "piratebay": {
             "website": PirateBay,
@@ -120,7 +120,7 @@ def check_if_site_available(site):
             "recent_available": True,
             "recent_category_available": True,
             "categories": ["tv"],
-            "limit": 50,
+            "limit": 10000,
         },
         "bitsearch": {
             "website": Bitsearch,
@@ -130,7 +130,7 @@ def check_if_site_available(site):
             "recent_available": False,
             "recent_category_available": False,
             "categories": [],
-            "limit": 100,
+            "limit": 10000,
         },
         "kickass": {
             "website": Kickass,
@@ -151,7 +151,7 @@ def check_if_site_available(site):
                 "movies",
                 "books",
             ],  # television applications
-            "limit": 100,
+            "limit": 10000,
         },
         "libgen": {
             "website": Libgen,
@@ -161,7 +161,7 @@ def check_if_site_available(site):
             "recent_available": False,
             "recent_category_available": False,
             "categories": [],
-            "limit": 100,
+            "limit": 10000,
         },
         "yts": {
             "website": Yts,
@@ -171,7 +171,7 @@ def check_if_site_available(site):
             "recent_available": True,
             "recent_category_available": False,
             "categories": [],
-            "limit": 100,
+            "limit": 10000,
         },
         "limetorrent": {
             "website": Limetorrent,
@@ -190,7 +190,7 @@ def check_if_site_available(site):
                 "movies",
                 "books",
             ],  # applications and tv-shows
-            "limit": 100,
+            "limit": 10000,
         },
         "torrentfunk": {
             "website": TorrentFunk,
@@ -209,7 +209,7 @@ def check_if_site_available(site):
                 "movies",
                 "books",
             ],  # television # software #adult # ebooks
-            "limit": 100,
+            "limit": 10000,
         },
         "glodls": {
             "website": Glodls,
@@ -219,7 +219,7 @@ def check_if_site_available(site):
             "recent_available": True,
             "recent_category_available": False,
             "categories": [],
-            "limit": 100,
+            "limit": 10000,
         },
         "torrentproject": {
             "website": TorrentProject,
@@ -229,7 +229,7 @@ def check_if_site_available(site):
             "recent_available": False,
             "recent_category_available": False,
             "categories": [],
-            "limit": 100,
+            "limit": 10000,
         },
         "ybt": {
             "website": YourBittorrent,
